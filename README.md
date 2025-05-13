@@ -6,3 +6,4 @@ Este é um projeto de chat em tempo real desenvolvido em Python. Ele consiste em
 
 - Envio e recebimento de mensagens em tempo real.
 - Suporte a múltiplos clientes conectados simultaneamente.
+- Envio de mensagens privadas de cliente para cliente.
