@@ -9,7 +9,7 @@ class Server:
         self.port = port
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         
-        self.clients = {}  # Change to a dictionary to store client sockets with their IDs
+        self.clients = {}
         self.lock = threading.Lock()
         self.running = False
 
